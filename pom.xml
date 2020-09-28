@@ -18,6 +18,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<distributionManagement>
 	 <repository>
       <id>nexus</id>
       <name>Releases</name>
@@ -28,6 +29,7 @@
       <name>Snapshot</name>
       <url>http://localhost:8081/repository/training/</url>
     </snapshotRepository>
+		</distributionManagement>
 
 	<dependencies>
 		<dependency>
